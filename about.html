@@ -1,0 +1,125 @@
+<?php
+session_start();
+
+?>
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Walid Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+<body class="bod">
+    <!-- navbar -->
+    <nav style="background-color: #808080;" class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a style="color:black ;font-weight: bold;font-size: 25px;" class="navbar-brand" href="#">WALID</a> <!-- ajouter un lien pour saif-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li  class="nav-item active">
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="stage.html">Stage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="articles.html">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="anniversaire.html">Anniversaire</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/pp.png" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p class="text">Bonjour et bienvenue sur mon portfolio !
+
+                        Je m'appelle Walid, et je suis passionné par le développement web. Avec 2 ans d'expérience dans le secteur, j'ai eu l'opportunité de travailler sur une variété de projets qui m'ont permis de développer mes compétences et de m'affirmer en tant que professionnel.
+                        
+                        Mon approche se concentre sur: créativité, innovation, collaboration. J'aime relever des défis et trouver des solutions uniques qui répondent aux besoins de mes clients tout en ajoutant une touche personnelle.
+                        
+                        Dans ce portfolio, vous trouverez une sélection de mes travaux, de mon experience professionnelle. Chaque projet témoigne de ma passion pour le developpement wen et de mon engagement à fournir un travail de qualité.
+                        
+                        N'hésitez pas à me contacter si vous souhaitez discuter d'une collaboration ou si vous avez des questions. Je suis toujours ouvert aux nouvelles opportunités et aux échanges enrichissants !
+                        
+                        Merci de votre visite et bonne exploration !
+                        
+                        Hadak Walid
+                        walid.hadak@ellabts.com                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul class="text">
+                                <li>Name: WALID</li>
+                                <li>Age: 22</li>
+                                <li>Occupation: Student at Lycee Ella Fitzgerald</li>
+                                <li>Languages: Italian , French , Arab , English</li>
+                                <li>Sports: Gym, Soccer</li>
+                                <li>////</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="text">
+                                <li>Web: HTML, CSS, JS, PHP, SQL</li>
+                                <li>Programming: C++, Python, C#</li>
+                                <li>////</li>
+                                <li>////</li>
+                                <li>////</li>
+                                <li>////</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <div style="display: flex; justify-content: center;">
+            <a href="CV.pdf" download>
+                <button style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    Télécharger mon CV
+                </button>
+            </a>        
+        </div>
+    </section>
+     <!-- footer section-->
+     <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

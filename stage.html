@@ -1,0 +1,215 @@
+<?php
+session_start();
+
+?>
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Walid Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+<body class="bod">
+    <!-- navbar -->
+    <nav style="background-color: #808080;" class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a style="color:black ;font-weight: bold;font-size: 25px;" class="navbar-brand" href="#">WALID</a> <!-- ajouter un lien pour saif-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li  class="nav-item active">
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="articles.html">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <section id="stage">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Mon Stage</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/elixir.png" class= "imageAboutPage" alt="">
+                </div>
+                <div class="col-lg-8">
+                     <p class="text">
+                        <br>
+                        Description: Agence web spécialisée en site vitrine et site e-commerce, situé à Vienne(38).
+                        <br>
+                        Effectif: 2 personnes
+                        <br>
+                        Adresse: Vienne(38)
+                     </p>
+                </div> 
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="overflow:hidden;max-width:100%;width:500px;height:100px;">
+                        <div id="my-map-display" style="height:500%; width:100%;max-width:100%;">
+                            <iframe style="height:50%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44726.420853855656!2d4.839133725917751!3d45.52212938179283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4df0824f5f985%3A0xc4e1bb60b45a03c3!2s38200%20Vienne!5e0!3m2!1sfr!2sfr!4v1728502018503!5m2!1sfr!2sfr">
+                            </iframe>
+                        </div> <a class="code-for-google-map" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a>
+                        <style>#my-map-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}
+                        </style>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="container">
+            <h1 class="text-center">Outils</h1>
+            <div class="flip-box-container">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="images/wordpress.png" alt="Image 1" style="width: 100%; height:100%;">
+                        </div>
+                        <div class="flip-box-back">
+                            <p>WordPress est un système de gestion de contenu (CMS) open source, idéal pour créer des sites web et des blogs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-box-container">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="images/o2.png" alt="Image 1" style="width: 100%; height:100%;">
+                            </div>
+                            <div class="flip-box-back">
+                                <p>o2switch est un hébergeur web français réputé pour son offre d’hébergement mutualisé de haute qualité.</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="flip-box-container">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="images/oxygen.png" alt="Image 1" style="width: 100%; height:100%;">
+                            </div>
+                            <div class="flip-box-back">
+                                <p>Oxygen Builder est un constructeur de pages visuel puissant pour WordPress, conçu pour permettre aux utilisateurs de créer des sites web hautement personnalisés sans avoir besoin de coder</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-box-container">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="images/divi.png" alt="Image 1" style="width: 100%; height:100%;">
+                            </div>
+                            <div class="flip-box-back">
+                                <p>Divi Builder est un constructeur de pages WordPress polyvalent et intuitif développé par Elegant Themes. Il permet aux utilisateurs de créer des sites web attrayants et fonctionnels grâce à son interface visuelle par glisser-déposer.</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-box-container">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="images/trello.png" alt="Image 1" style="width: 100%; height:100%;">
+                            </div>
+                            <div class="flip-box-back">
+                                <p> Trello est un outil de gestion de projet flexible qui utilise des tableaux, des listes et des cartes pour vous aider à organiser vos tâches et vos projets.</p>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-box-container">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <img src="images/discord.png" alt="Image 1" style="width: 100%; height:100%;">
+                            </div>
+                            <div class="flip-box-back">
+                                <p>Discord est une plateforme de communication qui permet aux utilisateurs de créer et 
+                                    de rejoindre des serveurs pour discuter par texte, voix ou vidéo. Initialement conçu pour les gamers, Discord a évolué pour devenir un espace communautaire pour divers intérêts.
+                                </p>
+                             </div>
+                        </div>
+                    </div>
+                </div>                                                 
+            </div>
+    </section>
+    <section>
+        <div class="container">
+        <h1 class="text-center">Realisations</h1>
+            <div class="flip-box-container">
+                <div class="flip-box">
+                    <div class="flip-box-inner">
+                        <div class="flip-box-front">
+                            <img src="images/rhpaie.png" alt="Image 1" style="width: 100%; height:100%;">
+                        </div>
+                        <div class="flip-box-back">
+                            <a href="https://rhpaieenconfiance.fr/en/" class="button"style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">visiter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="flip-box-container">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="images/sl.png" alt="Image 1" style="width: 100%; height:100%;">
+                    </div>
+                    <div class="flip-box-back">
+                        <a href="https://sllocationbenne.fr" class="button"style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">visiter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="flip-box-container">
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <img src="images/Logo.png" alt="Image 1" style="width: 100%; height:100%;">
+                    </div>
+                    <div class="flip-box-back">
+                        <a href="https://www.mjcduchere.fr" class="button"style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">visiter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

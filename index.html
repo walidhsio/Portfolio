@@ -30,7 +30,7 @@ session_start();
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li  class="nav-item active">
-                        <a style="color: black;font-weight: bold;" class="nav-link" href="index.html">Home</a>
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a style="color: black;font-weight: bold;" class="nav-link" href="about.html">About</a>
@@ -41,41 +41,22 @@ session_start();
                     <li class="nav-item">
                         <a style="color: black;font-weight: bold;" class="nav-link" href="articles.html">Articles</a>
                     </li>
+                    <li class="nav-item">
+                        <a style="color: black;font-weight: bold;" class="nav-link" href="contact.html">Contact</a>
+                    </li>
                 </ul>
+                
             </div>
         </div>
     </nav>
-    <!-- contact section-->
-    <section id="contact">
-        <div class="container mt-3 contactContent">
-            <h1 class="text-center">Contact Me</h1>
-
-            <div class="row mt-4">
-                <div class="col-lg-6">
-                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                    <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
-                        <div id="my-map-display" style="height:100%; width:100%;max-width:100%;">
-                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Lyon,+France&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                            </iframe>
-                        </div> <a class="code-for-google-map" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a>
-                        <style>#my-map-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}
-                        </style>
-                        </div>  
-                </div>
-                <div class="col-lg-6">
-                    <!-- form fields -->
-                    <form>
-                        <input style="background-color: beige; color: #808080" type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input style="background-color: beige" type="email" class="form-control mt-3" placeholder="Email">
-                        <input style="background-color: beige" type="text" class="form-control mt-3" placeholder="Subject">
-                        <div class="mb-3 mt-3">
-                            <textarea style="background-color: beige" class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
-                        </div>
-                    </form>
-                    <button style="background-color: #808080;;color: beige;" type="button" class="btn mt-5">Contact Me</button>
-                    
-                </div>
-
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Welcome to my personal Website</h2>
+                <p class="hero_desc">I am a student at BTS SIO at Lycée Ella Fitzgerald</p>
+            </div>
             </div>
         </div>
     </section>
@@ -92,8 +73,6 @@ session_start();
             </div>
         </div>
     </footer>
-
     <script src="script.js"></script>
-
 </body>
 </html>

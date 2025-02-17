@@ -1,0 +1,63 @@
+/* Styles pour le corps de la page */
+body {
+    background-color: #f1f1f1;
+  }
+  
+  /* Styles pour la zone de connexion */
+  .login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 3em;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .login-btn {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login-container input[type="submit"] {
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .login-container input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .login-container p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-container a {
+    color: #4CAF50;
+  }
